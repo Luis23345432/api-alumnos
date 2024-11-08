@@ -1,11 +1,11 @@
-org: kartago
+org: lopezluis17
 service: api-alumnos
 
 provider:
   name: aws
   runtime: python3.12
   iam:
-    role: arn:aws:iam::037294426912:role/LabRole
+    role: arn:aws:iam::418974378390:role/LabRole
 
 functions:
   listar:
